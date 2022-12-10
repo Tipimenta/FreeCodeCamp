@@ -9,8 +9,8 @@ background-image: linear-gradient(
 }
 
 h1, p {
-      margin-left: auto;
-      margin-right: auto;
+      margin: auto;
+      text-align: center;
 }
 
 
