@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta>
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform </p>
+    <form id="survey-form">
+
+    <fieldset>
+
+    <label for="name-label" id="name-label">Name<input id="name" name"name-label" type="text" required placeholder="input your name" class="inline"></label>
+
+      <label for="email-label" id="email-label">Email<input id="email" type="email" pattern ="[a-z0-5]{8,}" name"email-label" required placeholder="input your email" class="inline"></label>
+
+      <label for="number-label" id="number-label">Age<input id="number" type="number" min="13" max="120" name"number-label" placeholder="Your age" class="inline"></label>
+      </fieldset>
+
+      <fieldset>
+      <p>Which option best describes your current role?</p>
+        <select id="dropdown">
+        <option value="">Select current role</option>
+        <option value="student">Student</option>
+        <option value="full-time-job">Full Time Job</option>
+        <option value="full-time-learner">Full Time Learner</option>
+        <option value="prefer-not-to-say">Prefer not to say</option>
+        <option value="other">Other</option>
+     </select>
+     </fieldset>
+
+     <fieldset>
+     <p>Would you recommend freeCodeCamp to a friend?</p>
+
+     <label><input type="radio" name="radio" value="definitely"> Definitely</label> 
+
+     <label><input type="radio" name="radio" value="maybe"> Maybe</label>   
+
+     <label><input type="radio" name="radio" value="not-sure"> Not Sure</label>   
+     </fieldset>
+
+     <fieldset>
+       <p>What is your favorite feature of freeCodeCamp?</p>
+       <select>
+         <option>Select an option</option>
+         <option>Challenges</option>
+         <option>Projects</option>
+         <option>Community</option>
+         <option>Open Source</option>
+       </select>
+       </fieldset>
+
+    <fieldset>
+    <p>What would you like to see improved? (Check all that apply)</p>
+     <label><input type="checkbox" value="front"> Front-end Projects</label>
+     <label><input type="checkbox" value="back"> Back-end Projects</label>
+     <label><input type="checkbox" value="data"> Data Visualization</label>
+     <label><input type="checkbox" value="chanllenges"> Challenges</label>
+     <label><input type="checkbox" value="open"> Open Source Community</label>
+     <label><input type="checkbox" value="gitter"> Gitter help rooms</label>
+     <label><input type="checkbox" value="videos"> Videos</label>
+     <label><input type="checkbox" value="city"> City Meetups</label>
+     <label><input type="checkbox" value="wiki"> Wiki</label>
+     <label><input type="checkbox" value="forum"> Forum</label>
+    <label><input type="checkbox" value="additional"> Additional Courses</label>
+    </fieldset>
+
+    <fieldset>
+    <label>Any comments or suggestions?<textarea name="textarea"></textarea>
+    </label>
+    </fieldset>
+     <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
