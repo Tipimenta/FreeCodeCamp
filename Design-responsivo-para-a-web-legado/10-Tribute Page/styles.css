@@ -7,8 +7,19 @@ main{
 
 img{
   display: block;
+  width: 100%;
 }
 
+figure{
+  background-color: white;
+  padding: 25px;
+  margin: 10px;
+
+}
+figcaption{
+  font-size: 1.5rem;
+  margin: 10px;
+}
 #image{
   max-width: 100%;
   height: auto;
@@ -21,6 +32,10 @@ h1 {
   padding: 40px 0 0px
 }
 
+h2{
+  font-size: 2rem;
+  text-align: center;
+}
 
 p {
   text-align: center;
@@ -30,4 +45,28 @@ p {
 img{
 margin: auto;
 padding: 0
+}
+
+li{
+font-size: 1.5rem;
+margin: 20px;
+font-family: 100;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+blockquote{
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.sheet{
+  width: 50%;
+  margin: auto;
+}
+
+footer{
+  font-size: 1.1rem;
 }
